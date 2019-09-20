@@ -46,13 +46,10 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. Describe the four rules of the 'this' keyword.
 
-• 
-
-•
-
-•
-
-•
+* 1. Window Binding – if no other rules apply - the 'this' keyword defaults to the window object (global object in Node) - unless using strict 'use strict' in which case it defaults to undefined.
+* 2. Implicit Binding - when the function is invoked 'this' refers to what's left of the dot.
+* 3. New Binding - using the 'new' keyword constructs a new object, and 'this' points to it.
+* 4. Explicit Binding – we can explicitly tell the Javascript engine to set "this" to point to a certain value using call, apply or bind.
 
 5. Why do we need super() in an extended class?
 
