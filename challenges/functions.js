@@ -15,8 +15,8 @@ function consume(a,b,cb) {
   * Create a function named multiply that returns the product of two numbers 
   * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
 */
-const add = (a,b) => {
-  return a + b;
+const add = (c,d) => {
+  return c + d;
 }
 
 const multiply = (a,b) => {
